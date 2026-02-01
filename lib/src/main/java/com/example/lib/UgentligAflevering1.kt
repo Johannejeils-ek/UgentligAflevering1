@@ -206,7 +206,7 @@ fun calculateGrade (procent: Int): String{
 Write a Kotlin function named filterWordsByLength that takes in a list of strings and a minimum length,
 and returns a list containing only the words that have a length greater than or equal to the specified minimum length.
 
-Use filter function and lambda expressions
+Use filter function and lambda expressions.
  */
 
 fun filterWordsByLength(words: List<String>, minimumLength: Int): List<String> {
