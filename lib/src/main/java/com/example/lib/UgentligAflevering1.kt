@@ -41,8 +41,8 @@ fun main(){
 
 
     // Opgave 8.
-    val wordsList = listOf("one", "two", "three", "four")
-    val minimumLength = 2
+    val wordsList = listOf("solskin", "efterårsstorm", "vind", "forårsblomstring", "vindstorm")
+    val minimumLength = 7
 
     val result = filterWordsByLength(wordsList, minimumLength)
     println(result)
