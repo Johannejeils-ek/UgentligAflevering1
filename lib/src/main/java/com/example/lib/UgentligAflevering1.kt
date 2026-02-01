@@ -50,7 +50,7 @@ fun main(){
 }
 
 
-/* ------- 1 -------
+/* ------- 1. -------
 A person is elligible to vote if his/her age is greater than or equal to 18. Define a method to find out if he/she is elligible to vote.
 Let the user input their age.
 
@@ -68,7 +68,7 @@ fun exercise1(age: Int): String{
     }
 }
 
-/* 2.
+/* ------- 2. -------
 Define two functions to print the maximum and the minimum number respectively among three numbers
 
 Copy
@@ -90,7 +90,7 @@ fun getMax(a: Int, b: Int, c: Int ): Int{
 }
 
 
-/* 3.
+/* ------- 3. -------
 Write a Kotlin function named calculateAverage that takes in a list of numbers and returns their average.
  */
 fun calculateAverage(list: List<Int>): Double{
@@ -109,7 +109,7 @@ fun Average(numbers: List<Int>): Double {
 }
 
 
-/*4.
+/* ------- 4. -------
 Write a method that returns if a user has input a valid CPR number.
 
 A valid CPR number has:
@@ -131,7 +131,7 @@ fun validCPR(cpr: String): Boolean{
     }
 }
 
-/* 5.
+/* ------- 5. -------
 Write a program that prints the numbers from 1 to 100.
 But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”.
 For numbers which are multiples of both three and five print “FizzBuzz”.
@@ -150,7 +150,7 @@ fun printNumbers (){
     }
 }
 
-/*6.
+/* ------- 6. -------
 Write a program that takes your full name as input and displays the abbreviations of the first and middle names,
 except the last name which is displayed as it is.
 
@@ -170,7 +170,7 @@ fun nameProgram (name: String): String{
     return "$firstLetterOfFirstName. $firstLetterOfMiddelName. $lastName"
 }
 
-/* 7.
+/* ------- 7. -------
 Write a program that takes a numerical grade (0-100) as input and prints out the corresponding american letter grade.
 
 Implement a function calculateGrade that takes an integer parameter representing the grade,
@@ -202,7 +202,7 @@ fun calculateGrade (procent: Int): String{
     }
 }
 
-/* 8.
+/* ------- 8. -------
 Write a Kotlin function named filterWordsByLength that takes in a list of strings and a minimum length,
 and returns a list containing only the words that have a length greater than or equal to the specified minimum length.
 
